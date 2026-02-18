@@ -42,16 +42,38 @@ public class PracticeProblem {
 	word = input.nextLine();
 	char c;
 	c = word.charAt(1);
-	System.out.println("The second character the user entered: " + c);
+	System.out.println("The second character user entered was: " + c);
 	
 	}
 
 	public static void q4() {
 		//Write question 4 code here
+	Scanner input = new Scanner(System.in);
+	System.out.print("Input a number: ");
+	int num;
+	num = input.nextInt();
+	
+	System.out.println("Your number plus 1 is: " + ( num + 1));
+
 	}
 
 	public static void q5() {
 		//Write question 5 code here
+	Scanner input = new Scanner(System.in);
+	System.out.print("Input a letter: ");
+	char w;
+	String word1 = input.nextLine();
+	w = word1.charAt(0);
+	System.out.print("Input another letter: ");
+	char w2;
+	String word2 = input.nextLine();
+	w2 = word2.charAt(0);
+	System.out.println(w + w2);
+
+	
+
+
+	
 	}
 
 }
